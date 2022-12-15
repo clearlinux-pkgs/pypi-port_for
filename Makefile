@@ -1,5 +1,5 @@
 PKG_NAME := pypi-port_for
-URL = https://files.pythonhosted.org/packages/6b/de/34724ce0498f8fe3a3d4925c7f36185977abfbc60c029ff622cc4bb3736d/port-for-0.6.2.tar.gz
+URL = https://files.pythonhosted.org/packages/13/83/4afa8435dbd55cf00d7f02c9aef77ef6696cbcb6d3f09de3501e169eea45/port-for-0.6.3.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
