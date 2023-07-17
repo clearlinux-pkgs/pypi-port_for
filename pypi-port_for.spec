@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-port_for
-Version  : 0.7.0
-Release  : 11
-URL      : https://files.pythonhosted.org/packages/53/b7/f68d77c8400a2d29d8fc062f0e40b28c3867730cc074807a3cc80a267f8c/port-for-0.7.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/53/b7/f68d77c8400a2d29d8fc062f0e40b28c3867730cc074807a3cc80a267f8c/port-for-0.7.0.tar.gz
+Version  : 0.7.1
+Release  : 12
+URL      : https://files.pythonhosted.org/packages/53/0e/090e1515e0e3810d1734fb6e616dbdf3ee6d662d03d4000e690e08d856ae/port-for-0.7.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/53/0e/090e1515e0e3810d1734fb6e616dbdf3ee6d662d03d4000e690e08d856ae/port-for-0.7.1.tar.gz
 Summary  : Utility that helps with local TCP ports management. It can find an unused TCP localhost port and remember the association.
 Group    : Development/Tools
 License  : MIT
@@ -67,10 +67,10 @@ python3 components for the pypi-port_for package.
 
 
 %prep
-%setup -q -n port-for-0.7.0
-cd %{_builddir}/port-for-0.7.0
+%setup -q -n port-for-0.7.1
+cd %{_builddir}/port-for-0.7.1
 pushd ..
-cp -a port-for-0.7.0 buildavx2
+cp -a port-for-0.7.1 buildavx2
 popd
 
 %build
@@ -78,7 +78,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1686841500
+export SOURCE_DATE_EPOCH=1689613308
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
