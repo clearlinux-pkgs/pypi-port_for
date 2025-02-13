@@ -7,7 +7,7 @@
 #
 Name     : pypi-port_for
 Version  : 0.7.4
-Release  : 18
+Release  : 19
 URL      : https://files.pythonhosted.org/packages/f6/84/ad5114c85217426d7a5170a74a6f9d6b724df117c2f3b75e41fc9d6c6811/port_for-0.7.4.tar.gz
 Source0  : https://files.pythonhosted.org/packages/f6/84/ad5114c85217426d7a5170a74a6f9d6b724df117c2f3b75e41fc9d6c6811/port_for-0.7.4.tar.gz
 Summary  : Utility that helps with local TCP ports management. It can find an unused TCP localhost port and remember the association.
